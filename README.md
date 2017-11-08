@@ -39,3 +39,7 @@ model.save_weights("squeezenet.h5")
 4) [Python/Keras code for squeezenet model](https://github.com/rcmalli/keras-squeezenet)
 
 5) [SqueezeNet Paper](http://arxiv.org/abs/1602.07360)
+
+### Notes
+Layers names have been changed from original python code as / are not allowed in layers names in Matlab. Instead, _ was used.
+
