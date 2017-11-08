@@ -3,6 +3,14 @@ Squeezenet pretrained model compatible with Matlab function ImportKerasNetwork.
 
 These files were created from https://github.com/rcmalli/keras-squeezenet with keras 2.0.6.
 
+### Usage example in Matlab R2017b :
+
+~~~matlab
+squeezenet = importKerasNetwork('squeezenet.json','WeightFile','squeezenet.h5','OutputLayerType','classification');
+figure;plot(pretrainednet);
+
+~~~
+
 ### Saving method (with python):
 
 ~~~python
@@ -20,13 +28,7 @@ model.save_weights("squeezenet.h5")
 
 ~~~
 
-### Usage example in Matlab R2017b :
 
-~~~matlab
-squeezenet = importKerasNetwork('squeezenet.json','WeightFile','squeezenet.h5','OutputLayerType','classification');
-figure;plot(pretrainednet);
-
-~~~
 
 ### References
 
