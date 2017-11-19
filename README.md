@@ -1,5 +1,5 @@
 # Squeezenet-Matlab-Keras
-Squeezenet pretrained model compatible with Matlab function ImportKerasNetwork.
+Squeezenet v1.1 pretrained model compatible with Matlab function ImportKerasNetwork.
 
 These files were created from https://github.com/rcmalli/keras-squeezenet with keras 2.0.6.
 
